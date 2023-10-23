@@ -1319,7 +1319,9 @@ ol {
     padding: 188px 0;
   }
   .nav-header {
-    margin-right: 332px;
+    margin-right: 0px;
+    gap: 72px;
+    justify-content: normal;
   }
 }
 
