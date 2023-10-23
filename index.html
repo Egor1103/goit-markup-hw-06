@@ -37,6 +37,11 @@
               <a href="" class="nav-links-head links">Contacts</a>
             </li>
           </ul>
+          <button type="button" class="menu-open-btn-header">
+            <svg class="menu-open-btn-svg-head" width="24" height="24">
+              <use href="./images/icons.svg#icon-solid-menu"></use>
+            </svg>
+          </button>
         </nav>
         <address class="adrs-blck-head">
           <ul class="adrs-blck-head-container list">
@@ -53,6 +58,85 @@
           </ul>
         </address>
       </div>
+      <div class="mob-menu">
+        <div>
+          <button type="button" class="mob-menu-close-btn">
+            <svg class="mob-menu-btn-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-list-item">
+              <a href="./index.html" class="mob-list-links-studio links"
+                >Studio</a
+              >
+            </li>
+            <li class="mob-list-item">
+              <a href="" class="mob-list-links-portfolio links">Portfolio</a>
+            </li>
+            <li class="mob-list-item">
+              <a href="" class="mob-list-links-contacts links">Contacts</a>
+            </li>
+          </ul>
+          <ul class="mob-menu-adress-list list">
+            <li class="mob-menu-adress-item">
+              <a href="tel:+110001111111" class="mob-menu-adress-tel links"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-menu-adress-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mob-menu-adress-email links"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <ul class="mob-menu-icon-list list">
+          <li class="mob-menu-item-icon">
+            <a
+              class="mob-menu-icon-svg"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="svg-mob-menu" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="mob-menu-item-icon">
+            <a
+              class="mob-menu-icon-svg"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="svg-mob-menu" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+          <li class="mob-menu-item-icon">
+            <a
+              class="mob-menu-icon-svg"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="svg-mob-menu" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="mob-menu-item-icon">
+            <a
+              class="mob-menu-icon-svg"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="svg-mob-menu" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="mob-modal"></div>
     </header>
     <main>
       <section class="solutions">
@@ -121,13 +205,9 @@
           <h2 class="our-team-title">Our Team</h2>
           <ul class="our-team-list list">
             <li class="our-team-hum">
-              <img
-                src="./images/img.jpg"
-                width="264"
-                height="260"
-                alt="Mark Guerrero"
-                class="our-team-img"
-              />
+              <img /*srcset="./images/img.jpg 1x, ./images/imgimg2x.png 2x"*/
+              src="./images/img.jpg" width="264" height="260" alt="Mark
+              Guerrero" class="our-team-img" />
               <div class="container-name-prof">
                 <h3 class="our-team-names">Mark Guerrero</h3>
                 <p class="our-team-prof">Product Designer</p>
