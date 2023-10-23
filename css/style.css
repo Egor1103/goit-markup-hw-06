@@ -48,11 +48,11 @@ ol {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logotype-header {
-  margin-right: 76px;
 }
 .logotype-f {
   color: #4d5ae5;
@@ -191,11 +191,21 @@ ol {
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mob-menu-list {
-  margin-bottom: 168px;
+  margin-bottom: 16px;
 }
-
+.contacts-adr-mob-menu {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+}
+.mob-menu-adress-list li:first-child {
+  margin-bottom: 24px;
+}
 .mob-list-item {
 }
 .mob-list-item:not(:last-child) {
@@ -213,10 +223,9 @@ ol {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  -webkit-text-stroke: 2px rgb(0, 0, 0);
 }
 .mob-list-links-contacts {
   color: #2e2f42;
@@ -230,7 +239,6 @@ ol {
 .menu-adress-list {
 }
 .mob-menu-adress-item {
-  margin-bottom: 40px;
 }
 .mob-menu-adress-tel {
   color: #4d5ae5;
@@ -319,10 +327,6 @@ ol {
 
 /**============================**/
 
-/*******=========MODAL MENU MOBILE==========************/
-
-/**=================================**/
-
 /**============== SOLUTIONS ==============**/
 
 .solutions {
@@ -339,7 +343,6 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   margin: 0 auto;
 }
 
@@ -373,7 +376,7 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 72px;
+  margin-bottom: 36px;
 }
 
 .solutions-btn {
@@ -472,7 +475,7 @@ ol {
 
 .our-team {
   background-color: #f4f4fd;
-  padding: 96px 12px;
+  padding: 96px 0;
 }
 
 .our-team-title {
@@ -678,6 +681,8 @@ ol {
   max-width: 288px;
   margin-top: 17.5px;
 }
+.footer-summary {
+}
 
 /*****SOCIAL MEDIA*/
 
@@ -689,7 +694,6 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 72px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -747,6 +751,7 @@ ol {
 .footer-container {
 }
 .footer-content {
+  margin-bottom: 72px;
 }
 
 .first-footer-section {
@@ -1124,8 +1129,6 @@ ol {
     text-align: left;
   }
   .our-team {
-    padding-left: 80px;
-    padding-right: 80px;
   }
   .our-team-list {
     gap: 64px 24px;
@@ -1139,12 +1142,13 @@ ol {
   .solutions-title {
     font-size: 56px;
     max-width: 496px;
-    margin-bottom: 38px;
+    margin-bottom: 36px;
   }
 
   .logotype-footer {
     text-align: left;
   }
+
   .social-media-txt {
     text-align: left;
     margin-top: 0px;
@@ -1158,11 +1162,24 @@ ol {
   .footer-form {
     display: flex;
   }
+  .footer-txt {
+    max-width: 264px;
+  }
+  .footer-content {
+    margin-right: 24px;
+  }
+  .footer-container {
+    padding-left: 108px;
+    padding-right: 164px;
+  }
   .label-footer-btn {
     margin-top: 0px;
   }
   .footer-summary {
     display: flex;
+  }
+  .footer-content {
+    margin-bottom: 0;
   }
   .header-main {
     padding: 0;
@@ -1173,6 +1190,9 @@ ol {
   .adrs-head {
   }
   .adr-head-list {
+  }
+  .solutions {
+    padding: 112px 0 112px 0;
   }
   .solutions {
     background-image: linear-gradient(
@@ -1214,9 +1234,13 @@ ol {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office.jpg);
+    max-width: 1440px;
   }
   .solutions-title {
     margin-bottom: 48px;
+  }
+  .solutions {
+    padding: 188px 0 188px 0;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -1228,6 +1252,7 @@ ol {
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-2x.jpg);
+      max-width: 1440px;
     }
   }
   .adrs-blck-head {
