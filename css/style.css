@@ -1304,7 +1304,10 @@ ol {
     display: flex;
   }
   .footer-content {
-    margin-right: 120px;
+    margin-right: 0;
+  }
+  .footer-summary {
+    gap: 120px;
   }
   .footer-form-text {
     margin-top: 0;
