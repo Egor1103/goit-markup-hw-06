@@ -1169,8 +1169,7 @@ ol {
     margin-right: 24px;
   }
   .footer-container {
-    padding-left: 108px;
-    padding-right: 164px;
+    width: 552px;
   }
   .label-footer-btn {
     margin-top: 0px;
@@ -1302,6 +1301,8 @@ ol {
   }
   .footer-container {
     display: flex;
+    gap: 80px;
+    width: auto;
   }
   .footer-content {
     margin-right: 0;
@@ -1312,8 +1313,7 @@ ol {
   .footer-form-text {
     margin-top: 0;
   }
-  .social-media {
-    margin-right: 80px;
+  .footer-summary {
   }
   .solutions {
     padding: 188px 0;
